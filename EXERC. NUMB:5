@@ -1,0 +1,8 @@
+#inicio
+valor = int(input("digite um valor: "))
+
+#conta
+antecessor = valor - 1
+
+#resultado
+print("O antecessor de", valor, "é" antecessor)
