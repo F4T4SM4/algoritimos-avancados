@@ -1,1 +1,12 @@
+#variaveis
+x = 30
+y = 40
 
+#troca dos valores 
+troca = x
+x = y
+y = troca
+
+#resultado da troca 
+print("valor de x:", x)
+print("valor de y:", y)
