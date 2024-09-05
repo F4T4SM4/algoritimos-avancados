@@ -1,0 +1,15 @@
+# Inicio
+nota1 = float(input("Digite a nota da 1° avaliação: "))
+nota2 = float(input("Digite a nota da 2° avaliação: "))
+# Calculo
+media = (nota1 + nota2) / 2
+
+# If/else
+if media >= 6:
+    status = "aprovado"
+else:
+    status = "reprovado"
+
+# Resultado
+print("Média calculada: {:.2f}".format(media))
+print("O aluno foi:", status)
