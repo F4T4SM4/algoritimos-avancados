@@ -1,0 +1,12 @@
+# Inicio
+numero_carros_vendidos = int(input("Digite o número de carros vendidos: "))
+salario_fixo = float(input("Digite o sÁlario fixo do vendedor: "))
+comissao_por_carro = float(input("Digite o valor da comissão por carro vendido: "))
+
+# Calculo 
+comissao_total_carros = numero_carros_vendidos * comissao_por_carro
+comissao_5_vendas = 0.05 * valor_total_vendas
+salario_final = salario_fixo + comissao_total_carros + comissao_5_vendas
+
+# Resultado
+print("O sálario final do vendedor é; R$ {:.2f}".format(salario_final))
