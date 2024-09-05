@@ -1,0 +1,15 @@
+# Inicio
+nota1 = float(input("Digite a primeira NOTA: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Fix
+peso1 = 2
+peso2 = 3
+peso3 = 5
+
+# Calaculo
+media_final = (nota * peso1 * nota2 peso2 + nota3 * peso3) / (peso1 + peso2 peso3)
+
+# Retuldado
+print("A média final do aluno é {:.2f}".format(media_final))
