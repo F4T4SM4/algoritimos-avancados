@@ -1,1 +1,8 @@
+# Inicio
+valor = float(input("Digite um valor: "))
 
+# Calculo/resultado
+if valor > 10:
+    print("É maior que 10!")
+else:
+    print("Não é maior que 10!")
