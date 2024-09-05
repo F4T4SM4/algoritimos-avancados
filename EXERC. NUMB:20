@@ -1,0 +1,11 @@
+# Inicio
+valor1 = int(input("Digite o primeiro valor: "))
+valor2 = int(input("Digite o segundo valor: "))
+
+#if/Else
+if valor1 > valor2
+    maior = valor1
+else:
+    maior = valor2
+
+# Resultado
