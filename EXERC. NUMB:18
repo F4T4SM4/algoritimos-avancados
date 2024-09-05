@@ -1,0 +1,15 @@
+# iNICIO
+ano_atual = int(input("Digite o ano atual: "))
+ano_nascimento = int(input("Digite o ano de nascimento "))
+
+# Calculo
+idade = ano_atual - ano_nascimento
+
+# If/Else
+if idade > 16:
+    mensagem = "Você pode votar esse ano."
+else:
+    mensagem = "Você não pode votar esse ano."
+
+# Resultado
+print(mensagem)
