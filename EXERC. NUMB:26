@@ -1,1 +1,13 @@
 # Inicio
+quantidade_atual = int(input("Digite a quantidade em  estoque atual: "))
+quantidade_maxima = int(input("Digite a quantidade maxima em estoque: "))
+quantidade_minima = int(input("Digite a quantidade minima em estoque: "))
+
+# Var
+quantidade_media = (quantidade_maxima + quantidade_minima)/2
+
+# if/Else
+if quantidade_atual >= quantidade_media:
+    print("não efetuar compra")
+else:
+    print("Efetuar compra")
