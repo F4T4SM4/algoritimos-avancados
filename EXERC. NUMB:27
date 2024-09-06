@@ -1,0 +1,10 @@
+# Inicio
+n = int(input("Digite o número: "))
+
+# If/Else
+if n < 0:
+    print("Número é negativo")
+elif n > 0:
+    print("Número é positivo")
+else:
+    print("Zero")
