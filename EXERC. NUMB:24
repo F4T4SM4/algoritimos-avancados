@@ -1,0 +1,15 @@
+# Inicio
+salario_fixo = int(input("Digite o valor do salário fixo: "))
+valor_das_vendas = float(input("Digite o valor das vendas efetuadas pelo vendedor: "))
+
+# If/Else
+if valor_das_vendas <= 1500:
+    comissao = valor_das_vendas * 0.03
+else:
+    comissao = (1500 * 0.03) + ((valor_das_vendas - 1500) * 0.05)
+
+# Calculo
+salario_total = salario_fixo + comissao
+
+# Resultado
+print(f"O salário total é R$ {salario_total:.2f}")
