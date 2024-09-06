@@ -1,0 +1,21 @@
+# inicio
+horas_trabalhadas = float(input("Digite o número de horas trabalhadas no mês: "))
+salario_por_hora = float(input("Digite o valor do salário por hora: "))
+
+# Extras
+horas_normais = 40 * 4  # 160 horas no mês
+acrescimo_hora_extra = 1.5  # 50% de acréscimo sobre a hora normal
+
+# If/Else
+if horas_trabalhadas > horas_normais:
+    # Cálculo
+    horas_extras = horas_trabalhadas - horas_normais
+    salario_horas_extras = horas_extras * salario_por_hora * acrescimo_hora_extra
+    salario_normal = horas_normais * salario_por_hora
+    salario_total = salario_normal + salario_horas_extras
+else:
+    # Caso não tenha horas extras
+    salario_total = horas_trabalhadas * salario_por_hora
+
+# Rersultado
+print(f"O salário total do funcionário é: R$ {salario_total:.2f}")
