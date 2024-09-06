@@ -1,1 +1,14 @@
+# Inico
+numero_de_cliete = float(input("Insira o número da conta do cliente: "))
+saldo_cliente = float(input("Digite o número do saldo do cliente: "))
+debito_cliente = float(input("Digite o valor do débito do cliente: "))
+credito_cliente = float(input("Digite valor de crédito do cliente: "))
 
+# Var
+saldo_atual = saldo_cliente - debito_cliente + credito_cliente
+
+# If/Else
+if saldo_atual >= 0:
+    print("Saldo positivo")
+else:
+    print("Saldo negativo")
