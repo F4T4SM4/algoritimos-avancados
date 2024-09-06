@@ -1,0 +1,13 @@
+# Inicio
+comeco = int(input("Digite a hora do começo do jogo: "))
+fim = int(input("Digite a hora do fim do jogo: "))
+
+# Var
+hora = comeco - fim
+
+# If/Else
+if fim >= comeco:
+    print("A duraçaõ é de {hora} horas")
+else:
+    soma = hora + 24
+    print(f"A duração é de {soma} horas (dia seguinte)")
